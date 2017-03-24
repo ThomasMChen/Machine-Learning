@@ -2,3 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
+
+\.DS_Store
+
+tron/\.idea/
+
+tron/core/\.idea/
+
+*.iml
+
+*.class
