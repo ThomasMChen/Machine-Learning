@@ -135,6 +135,11 @@ public class Snake {
         }
     }
 
+    public void lineOfSightMove() {
+
+
+    }
+
     /**
      * Static testing method for simulating a game, and saving results.
      */
@@ -181,7 +186,7 @@ public class Snake {
     }
 
     public static void main(String[] args) throws IOException {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1; i++) {
             simulate();
         }
     }
