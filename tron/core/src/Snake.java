@@ -137,7 +137,6 @@ public class Snake {
 
     public void lineOfSightMove() {
 
-
     }
 
     /**
@@ -189,5 +188,7 @@ public class Snake {
         for (int i = 0; i < 1; i++) {
             simulate();
         }
+
+
     }
 }

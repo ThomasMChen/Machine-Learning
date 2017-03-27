@@ -63,6 +63,16 @@ public class Grid {
     }
 
     /**
+     * Accessor function that returns state of coordinate on grid
+     * @param x the x coordinate to be checked
+     * @param y the y coordinate to be checked
+     * @return whether the coordinate is occupied
+     */
+    public boolean isOccupied(int x, int y) {
+        return grid[x][y];
+    }
+
+    /**
      * Checks whether given coordinate is within the bounds of the
      * matrix of the grid.
      * @param x the x position of the coordinate.
