@@ -180,15 +180,13 @@ public class Snake {
         } catch (IOException e) {
             //exception handling left as an exercise for the reader
         }
-
         map.clearGrid();
     }
 
     public static void main(String[] args) throws IOException {
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 100; i++) {
             simulate();
         }
-
 
     }
 }
